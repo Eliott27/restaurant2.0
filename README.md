@@ -11,14 +11,12 @@ https://github.com/becodeorg/Swartz-8/blob/main/1.The-Field/10.Bootstrap/restaur
 - Html 
 - Bootstrap 
 - Css
+- PHP
 
 ## Responsive
 
 Oui, le site est responsive
 
-## Lien github.io
-
-https://eliott27.github.io/restaurant-css-framework/
 
 ## Cadre
 
