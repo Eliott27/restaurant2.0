@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+}
+
+.container-fluid {
+    padding-top: 20px;
+}
+
+.sidebar {
+    background-color: #dc3545;
+    color: #ffffff;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    padding-top: 20px;
+}
+
+.sidebar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.sidebar-item {
+    text-decoration: none;
+    color: #dcdcdc;
+    padding: 15px 20px;
+    display: block;
+    transition: background 0.3s;
+}
+
+.sidebar-item:hover {
+    background: #6c757d;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.table {
+    background-color: #ffffff;
+}
+
+.table th, .table td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+h1 {
+    color: #dc3545;
+}

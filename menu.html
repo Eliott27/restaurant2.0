@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>restaurant-css-framework</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger sticky-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="Asset/logo.png" width="70" height="70" alt=""> Le Lotus Royal
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="photo1.html">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="restaurant.html">Restaurant</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <br>
+      <nav>
+        <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link custom-link text-white" data-bs-toggle="pill" data-bs-target="#tab1" role="tab">Entrées</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link custom-link text-white" data-bs-toggle="pill" data-bs-target="#tab2" role="tab">Plats Principaux</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link custom-link text-white" data-bs-toggle="pill" data-bs-target="#tab3" role="tab">Accompagnement</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link custom-link text-white" data-bs-toggle="pill" data-bs-target="#tab4" role="tab">Dessert</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link custom-link text-white" data-bs-toggle="pill" data-bs-target="#tab5" role="tab">Boissons</a>
+            </li>
+        </ul>
+    </nav>
+    <br>
+    <div class="tab-content">
+        <div class="tab-pane active" id="tab1" role="tabpanel">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img src="Asset/entree1.jpg" class="img-fluid" alt="...">
+                        <div class="price">9,50€</div>
+                        <div class="caption">
+                            <h4>Tom Yum Goong</h4>
+                            <p class="descri">Soupe épicée aux crevettes, citronnelle, champignons et coriandre.</p>
+                            <a href="#" class="btn btn-order" role="button"><span class="bi-cart-fill"></span> Commander</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img src="Asset/entree2.jpg" class="img-fluid" alt="...">
+                        <div class="price">8,00€</div>
+                        <div class="caption">
+                            <h4>Satay Gai</h4>
+                            <p class="descri">Brochettes de poulet marinées, servies avec une sauce aux arachides et du concombre en julienne.</p>
+                            <a href="#" class="btn btn-order" role="button"><span class="bi-cart-fill"></span> Commander</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img src="Asset/entree3.jpg" class="img-fluid" alt="...">
+                        <div class="price">10,50 €</div>
+                        <div class="caption">
+                            <h4>Som Tam</h4>
+                            <p class="descri">Salade de papaye verte, crevettes, cacahuètes, et piment.</p>
+                            <a href="#" class="btn btn-order" role="button"><span class="bi-cart-fill"></span> Commander</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab2" role="tabpanel">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img src="Asset/plat1.jpg" class="img-fluid" alt="...">
+                        <div class="price">12,50€</div>
+                        <div class="caption">
+                            <h4>Pad Thai</h4>
+                            <p class="descri">Nouilles sautées aux crevettes, poulet, tofu ou légumes, garnies d'arachides, de lime et de coriandre.</p>
+                            <a href="#" class="btn btn-order" role="button"><span class="bi-cart-fill"></span> Commander</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img src="Asset/plat2.jpg" class="img-fluid" alt="...">
+                        <div class="price">14,00€</div>
+                        <div class="caption">
+                            <h4>Green Curry</h4>
+                            <p class="descri">Curry vert thaïlandais avec poulet, bœuf, crevettes ou légumes, servi avec du riz parfumé.</p>
+                            <a href="#" class="btn btn-order" role="button"><span class="bi-cart-fill"></span> Commander</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img src="Asset/plat3.jpg" class="img-fluid" alt="...">
+                        <div class="price">6.90 €</div>
+                        <div class="caption">
+                            <h4>Massaman Curry</h4>
+                            <p class="descri">Curry Massaman crémeux avec de l'agneau, des pommes de terre, des oignons et des cacahuètes, servi avec du riz.</p>
+                            <a href="#" class="btn btn-order" role="button"><span class="bi-cart-fill"></span> Commander</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="tab-pane" id="tab3" role="tabpanel">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img src="Asset/accomp1.jpg" class="img-fluid" alt="...">
+                        <div class="price">3,50 €</div>
+                        <div class="caption">
+                            <h4>Riz au Jasmin</h4>
+                            <p class="descri">Riz parfumé cuit à la vapeur.</p>
+                            <a href="#" class="btn btn-order" role="button"><span class="bi-cart-fill"></span> Commander</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img src="Asset/accomp2.jpg" class="img-fluid" alt="...">
+                        <div class="price">4,00€</div>
+                        <div class="caption">
+                            <h4>Riz Gluant</h4>
+                            <p>Rondelles d'oignon frits</p>
+                            <a href="#" class="btn btn-order" role="button"><span class="bi-cart-fill"></span> Commander</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab4" role="tabpanel">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img src="Asset/dessert1.jpg" class="img-fluid" alt="...">
+                        <div class="price">6,50€</div>
+                        <div class="caption">
+                            <h4>Mango Sticky Rice</h4>
+                            <p class="descri">Riz gluant sucré accompagné de mangue fraîche et de lait de coco.</p>
+                            <a href="#" class="btn btn-order" role="button"><span class="bi-cart-fill"></span> Commander</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img src="Asset/dessert2.jpg" class="img-fluid" alt="...">
+                        <div class="price">8.90 €</div>
+                        <div class="caption">
+                            <h4>Bananier en Fleurs</h4>
+                            <p class="descri">Bananes frites enrobées de sucre et de sésame, servies avec de la glace à la vanille.</p>
+                            <a href="#" class="btn btn-order" role="button"><span class="bi-cart-fill"></span> Commander</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab5" role="tabpanel">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img src="Asset/boisson1.jpg" class="img-fluid" alt="...">
+                        <div class="price">3,00€</div>
+                        <div class="caption">
+                            <h4>Singha Beer</h4>
+                            <p class="descri">Bière Thailandaise</p>
+                            <a href="#" class="btn btn-order" role="button"><span class="bi-cart-fill"></span> Commander</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="img-thumbnail">
+                        <img src="Asset/boisson2.jpg" class="img-fluid" alt="...">
+                        <div class="price">7,50€</div>
+                        <div class="caption">
+                            <h4>Cocktails Exotiques</h4>
+                            <p class="descri">Cocktails Thailandais</p>
+                            <a href="#" class="btn btn-order" role="button"><span class="bi-cart-fill"></span> Commander</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    <footer>
+        <div class="row bg-danger justify-content-center">
+            <div class="col-10 col-md-3">
+                <img src="Asset/logo.png" width="250px" height="auto">
+            </div>
+            <div class="col-10 col-md-3">
+                <h2>Adresse</h2>
+                    <p>
+                        <strong>Lotus Royal</strong><br>
+                        Rue de la Tulipe 26,<br>
+                        1050 Ixelles<br>
+                        Belgique<br>
+                    </p>
+            </div>
+            <div class="col-10 col-md-3">
+                <h2>Heures d'ouvertures</h2>
+                    <ul>
+                        <li><strong>Lundi</strong> : Fermé</li>
+                        <li><strong>Mardi - Vendredi </strong>: 18h00 - 22h00</li>
+                        <li><strong>Samedi </strong>: 12h00 - 15h00 (Déjeuner), 18h00 - 22h30 (Dîner)</li>          
+                        <li><strong>Dimanche </strong>: 12h00 - 15h00 (Déjeuner), 17h00 - 21h00 (Dîner)</li>
+                    </ul>
+            </div>
+            <div class="col-10 col-md-3">
+                <h2>Pages</h2>
+                    <ul>
+                        <li><a href="index.html">Acceuil</a></li>
+                        <li><a href="restaurant.html">Restaurant</a></li>
+                        <li><a href="photo1.html">Photos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
