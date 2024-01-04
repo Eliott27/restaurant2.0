@@ -4,7 +4,7 @@
 
 ## Lien des consignes 
 
-[https://github.com/becodeorg/Swartz-8/blob/main/1.The-Field/10.Bootstrap/restaurant.adoc](https://github.com/becodeorg/Swartz-8/blob/main/2.The-Hill/2.PHP/Restaurant2.0.md)
+(https://github.com/becodeorg/Swartz-8/blob/main/2.The-Hill/2.PHP/Restaurant2.0.md)
 
 ## Langages utilisés
 
